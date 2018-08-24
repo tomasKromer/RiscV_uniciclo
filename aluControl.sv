@@ -3,7 +3,7 @@
 
 
 module aluControl(
-                  input logic [2:0] fun3,
+                  input logic [1:0] fun3,
                   input logic [6:0] fun7,
                   input logic [1:0] aluOp,
                   output logic [3:0] opControl);
