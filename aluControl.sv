@@ -20,8 +20,8 @@ module aluControl(
                         3'b000:  
                                 begin
                                     case(fun7)
-                                        8'b000_0000: opControl = 4'b0010;//add para arith
-                                        8'b000_0001: opControl = 4'b0110;//sub para arith
+                                        7'b000_0000: opControl = 4'b0010;//add para arith
+                                        7'b010_0000: opControl = 4'b0110;//sub para arith
                                         default:     opControl = 4'b1111;//desconocido
                                     endcase
                                 end
